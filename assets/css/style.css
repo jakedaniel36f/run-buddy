@@ -131,6 +131,7 @@ header {
 
 .intro {
   text-align: center;
+  padding: 30px;
 }
 
 .intro p {
@@ -145,6 +146,7 @@ header {
 .steps{
   text-align: center;
   background: #fce138;
+  padding: 30px;
 }
 
 
@@ -283,3 +285,46 @@ header {
 .contact-info a {
   color: #fce138;
 }
+
+.page-title {
+  color: #fce138;
+  display: inline-block;
+  border-bottom: 4px solid #fce138;
+  padding: 0 80px 15px 80px;
+  font-weight: normal;
+  font-size: 42px;
+  font-style: italic;
+  }
+
+  .secondary-content {
+    width: 80%;
+    margin: auto;
+    color: #024e76;
+  }
+
+  .secondary-content h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .secondary-content p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+  .secondary-content ul {
+    color: #39a6b2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
