@@ -26,11 +26,11 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../css/images/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    z-index: ;
+    z-index: 9999 ;
   }
   header h1 {
     font-weight: bold;
@@ -95,13 +95,13 @@ header {
   }
 
   footer a {
-      colo: var(--secondary-color);
+      color: var(--secondary-color);
   }
   
  
   /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../css/images/hero-bg.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@ header {
   
   /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../css/images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -367,11 +367,6 @@ header {
   flex: 1;
 }
 
-.trainer img {
-  width: 100%;
-  overflow: auto;
-}
-
 .trainer-bio {
   padding: 25px;
   overflow: auto;
@@ -386,8 +381,6 @@ header {
   text-align: right;
 }
 
-
-
 .trainer-bio h3 {
   font-size: 28px;
 }
@@ -401,6 +394,53 @@ header {
 .trainer-bio p {
   font-size: 17px;
 }
+
+.trainer-img {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  padding: 15px;
+  align-items:flex-end;
+  position: relative;
+  background-size: cover;
+}
+
+.trainer-img h3 {
+  position: relative;
+  z-index: 9998 ;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.trainer-img h4 {
+  position: relative;
+  z-index: 9998 ;
+  font-size: 22px;
+}
+
+.trainer-img::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(252,225,56,0.3),rgba(2,78,118,1));
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.trainer-1 {
+  background-image: url("../css/images/01-05-trainers/trainer-1.jpg");
+}
+
+.trainer-2 {
+  background-image: url("../css/images/01-05-trainers/trainer-2.jpg");
+}
+
+.trainer-3 {
+  background-image: url("../css/images/01-05-trainers/trainer-3.jpg");
+}
+
+
 
 /*reach out sectino*/
 .contact {
